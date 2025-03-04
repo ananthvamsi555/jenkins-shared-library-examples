@@ -1,6 +1,6 @@
 def call(String name = "Alice") {
     script {
-        sh """
+        bat """
             echo Hi ${name}
         """
     }
